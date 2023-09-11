@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc234ab28a32840f5adfb84a075bc023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkLibrary:
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 4928f294da2fc4ce1af05d6bd6d823b0, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: ff90c78b7cefe47d997af3c9f2b349f7, type: 3}
+    unhandledCompileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+    parents: []
+    masterInkAssets: []
+    masterInkAsset: {fileID: 0}
+    includePaths: []
+    includes: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 1b49a87f14a51431b8f9288de4d01c9f, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: 70b0eafaf419b4ac3be0629a50fbae50, type: 3}
+    unhandledCompileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+    parents: []
+    masterInkAssets: []
+    masterInkAsset: {fileID: 0}
+    includePaths: []
+    includes: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 9bdcdaebef9ad48eba9aab4ccfd41ba9, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: e89d22c81cf0d4327b2c62ffb0736a55, type: 3}
+    unhandledCompileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+    parents: []
+    masterInkAssets: []
+    masterInkAsset: {fileID: 0}
+    includePaths: []
+    includes: []
