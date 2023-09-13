@@ -9,11 +9,11 @@ public class DialogueTrigger : MonoBehaviour
     [Header("Ink JSON")]
     [SerializeField] private TextAsset[] inkJSON;
     [SerializeField] private Animator titleAnim;
-    [SerializeField] private TextMeshProUGUI title;
+    [SerializeField] private GameObject title;
 
     [Header("Stats")]
     [SerializeField] private float titleDisplayDuration = 5f;
-    [SerializeField] private string titleText = "Episode 1";
+    //[SerializeField] private string titleText = "Episode 1";
     [Header("Audio")]
     [SerializeField] private AudioSource OpeningSrc;
     [SerializeField] private AudioSource BgmSrc;
@@ -71,7 +71,7 @@ public class DialogueTrigger : MonoBehaviour
         OpeningSrc.clip = opening;
         OpeningSrc.Play();
         //set text
-        title.text = titleText;
+        //title.text = titleText;
         StartCoroutine(DeactivateTextAfterDelay(titleDisplayDuration));
         //play title animation
         titleAnim.Play("start_title");
@@ -97,7 +97,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         // Deactivate the TextMeshPro component or the GameObject containing it
-        title.gameObject.SetActive(false);
+        title.SetActive(false);
     }
 
     private void StartChallenge(){

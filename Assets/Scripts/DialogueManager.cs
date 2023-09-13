@@ -319,15 +319,17 @@ public class DialogueManager : MonoBehaviour
         if (speaker == "gen"){
             genNameTag.SetActive(true);
             senkuNameTag.SetActive(false);
-        }
-        if (speaker == "senku"){
+        } else if (speaker == "senku"){
             senkuNameTag.SetActive(true);
             genNameTag.SetActive(false);
-        }
-        if (speaker == "null"){
+        } else if (speaker == "null"){
             senkuNameTag.SetActive(false);
             genNameTag.SetActive(false);
+        } else if (speaker == "all"){
+            genNameTag.SetActive(true);
+            senkuNameTag.SetActive(true);
         }
+        
     }
 
     private void ManageSFX(string key){

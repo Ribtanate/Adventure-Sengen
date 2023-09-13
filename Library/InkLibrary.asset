@@ -27,9 +27,22 @@ MonoBehaviour:
     includePaths: []
     includes: []
   - compileAutomatically: 0
-    inkAsset: {fileID: 102900000, guid: 1b49a87f14a51431b8f9288de4d01c9f, type: 3}
+    inkAsset: {fileID: 102900000, guid: c45cc948b0ba84895902dcfc586d9581, type: 3}
     jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 4900000, guid: 70b0eafaf419b4ac3be0629a50fbae50, type: 3}
+    jsonAsset: {fileID: 4900000, guid: c9496c4c9579f473582df176dc63f18e, type: 3}
+    unhandledCompileErrors: []
+    errors: []
+    warnings: []
+    todos: []
+    parents: []
+    masterInkAssets: []
+    masterInkAsset: {fileID: 0}
+    includePaths: []
+    includes: []
+  - compileAutomatically: 0
+    inkAsset: {fileID: 102900000, guid: 15cdfeaddd56946e68cd3fffb7abf903, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: f27f817b94d3f4411ac177e16ba37d39, type: 3}
     unhandledCompileErrors: []
     errors: []
     warnings: []

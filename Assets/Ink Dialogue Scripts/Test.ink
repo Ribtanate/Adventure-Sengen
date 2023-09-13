@@ -1,15 +1,13 @@
-senku默认动作 #speaker:senku #senku:default #senku_face:0 #gen_face:0
-senku思考动作(表情非包含在动作内，仅测试用) #speaker:senku #senku:think #senku_face:1
-gen默认动作 #speaker:gen #gen:default #senku_face:2 #senku:default
-gen思考动作 #speaker:gen #gen:think #gen_face:2
-gen动作3 #speaker:gen #gen:bingo #gen_face:4
-gen动作4 #speaker:gen #gen:bingo2 #gen_face:1
-gen动作5 #speaker:gen #gen:reach_out #gen_face:3
-gen离开了#speaker:senku #gen:null
-gen回来了#speaker:senku #gen:active
-senku离开了#speaker:gen #senku:null
-senku回来了 #speaker:gen #senku:active
-两个人同时离开（旁白）#speaker:null #senku:null #gen:null
-流水声，时长8秒 #speaker:null #sound_effect:water_flow #senku:active #gen:active #gen:default #senku:default #gen_face:0 #senku_face:0
-爆炸声（暂定）#speaker:none #sound_effect:boom #bg_effect:shake
-丛林中跑步声，听起来声音有点小，尤其是在有bgm的情况下不容易区分，建议选择其他音频 #speaker:none #sound_effect:run_forest
+5756年，WHYMAN危机解除后，时光机开发组成立。#speaker:null #gen:default #senku:default
+
+5758年，时光机研究取得阶段性成就。尖端科技发展带来的附加产业也促使着原始的石之世界重回三千年前的样貌。
+
+5760年，世界各主要城市已基本重建完毕。高耸的大厦内部端坐着滔滔而谈的外交官，新世界的蓝图从谈判桌上初具雏形，设计师、科学家、建筑工人...
+
+每一个行走在大楼中的人都投身于钢铁森林的重建中。大楼之下的街道也同样充满着蓬勃的生命力，青春飞扬的学生们向学校走去，路边透明玻璃窗映射出千百种重新开始的人声。
+
+而当所有人抬头仰望这片重建的城市天际线时，那座标志性的雕像成为了那已经沉默流淌而过的三千岁月的象征。
+
+高举着科学旗帜的少年领袖带领着他的同伴们历尽千辛，在原始的石头世界中登上月球，成功化解石化危机，复兴了全世界。
+
+为了纪念这一壮举，“石神千空博士”雕像成为了城市天际线新的核心标志...
